@@ -1,5 +1,3 @@
-# PI03 - Analytics
-
 ![image](https://help.ftx.com/hc/article_attachments/4409994973844/mceclip0.png)
 
 ## Introducción
@@ -42,8 +40,3 @@ La entrega se hará a través de un form que estará disponible hasta el *JUEVES
 * Documentación API FTX: https://docs.ftx.com/#overview
 * Repositorio oficial: https://github.com/ccxt/ccxt
 * Ejemplo de dashboard FTX: https://ftx.com/trade/DASH-PERP
-
-
-### ¡Mucha Suerte!  
-
-<img src = "https://user-images.githubusercontent.com/96025598/188937586-28575753-fbd6-42de-beca-81ae35b659e0.gif" height = 300>
