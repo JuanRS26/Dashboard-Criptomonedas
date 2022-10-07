@@ -21,13 +21,13 @@ Este dashboard consume datos de una [API](https://docs.ftx.com/#overview) de FTX
 
 ## Funciones:
 
-* ## Panel de la Criptomoneda
-
-### Actualizacion de datos:
+* ## Actualizacion de datos:
 
 ![image](Imagenes/Actualizacion_Datos.png)
 
 Para actualizar los datos a los mas recientes, hay que ir a la barra de inicio y dar clic en el boton que dice *Actualizar* como se observa en la imagen.
+
+* ## Panel de la Criptomoneda
 
 ### Fechas: 
 
@@ -37,13 +37,13 @@ Es un menu desplegable es cual se puede seleccionar la fecha en que se desea con
 
 ### Precio Historico por Hora:
 
-![image](Imagenes/Precio_Historico_Hora_1.png)
+![image](Imagenes/Precio_Historico_Hora.png)
 
 Esta grafica, la cual podemos deslizarnos por ella, muestra el precio en dolares historico de cierre de la criptomoneda por horas.
 
 ### Precio Historico por Día:
 
-![image](Imagenes/Precio_Historico_Dia.png)
+![image](Imagenes/Precio_Historico_Dia_1.png)
 
 Esta grafica, la cual podemos deslizarnos por ella, muestra el precio en dolares historico de cierre de la criptomoneda por días y tambien muestra la [Media Móvil. ](https://economipedia.com/definiciones/media-movil.html)
 
