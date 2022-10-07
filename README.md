@@ -1,42 +1,84 @@
+# Dashboard de Criptomonedas
+
+
 ![image](Imagenes/Panel_Cripto.png)
 
 ## Introducción
-Bienvenidos al útlimo proyecto individual de la academia. En esta ocasión, deberán aprender o repasar los conocimientos básicos del ecosistema de criptomonedas para luego realizar una DEMO en vivo del dashboard como entregable.
+Este proyecto consta de un dashboard interactivo de 10 criptomonedas las cuales son:
 
-# Consigna
+* Bitcoin Cash (BCH)
+* Binance Coin (BNB)
+* Bitcoin (BTC)
+* Dogecoin (DOGE)
+* Ethereum (ETH)
+* Helium (HNT)
+* Solana (SOL)
+* Tron (TRX)
+* DAI
+* Tether (USDT)
 
-#### Deberán conectar la API de FTX a un dashboard y cumplir con los siguientes requisitos:
-* Reporte de calidad y detalle de los datos: Esto quiere decir que deberán crear una documentación en la cuál expliquen qué es cada dato con el cuál decidieron trabajar y, además, su calidad. Puede hacerse en un Markdown.
-* Se debe trabajar directamente con conexión a la API. Es decir que su trabajo no puede estar montado a partir de archivos csv o de entorno local. 
-* Pueden hacer una investigación en Jupyter (u otro ambiente) para análizar todo lo que consideren necesario. La entrega es opcional.
-* Deberán elegir 10 criptomonedas para el reporte. Se recomienda utilizar [coinmarketcap.com ](https://coinmarketcap.com/es/) para su elección. Si quieren incluir más, depende del alumno.
+Este dashboard consume datos de una [API](https://docs.ftx.com/#overview) de FTX la cual trae datos de las criptomonedas y precios de los ultimos 2 meses.
 
-#### El Dashboard puede armarse en PowerBI o Streamlit. Tener en cuenta la rama a la que apuntan en su carrera para poder elegir una herramienta que genere valor agregado a sus proyectos y experiencia a futuro. Este mismo deberá contar con:
-* Interacción para la búsqueda de datos históricos de precio de diferentes monedas.
-* Volumen de transacción.
-* [Varianza.](https://economipedia.com/definiciones/varianza.html#:~:text=La%20varianza%20es%20una%20medida,la%20desviaci%C3%B3n%20t%C3%ADpica%20al%20cuadrado) 
-* Calculadora. Esta misma deberá arrojar el precio a partir de la paridad, es decir, podremos pedir el valor en USD a partir de una suma de BTC o viceversa. 
-* [Media Móvil. ](https://economipedia.com/definiciones/media-movil.html)  
-  
-#### A su vez recuerden que ustedes definen como quieren incluir cada uno de estos aspectos: dimensiones, información interactiva, colores, etc. Ningún diseño de dashboard en principio está mal.
+## Funciones:
 
-#### Plus de entrega:
-* Calculadora entre criptomonedas. A diferencia de la anterior, ésta deberá responder a cuantos ETH corresponden una cantidad determinada de BTC y viceversa.
-* Tasa implícita de futuros. 
-* Podrán agregar cualquier dato que consideren relevante y puedan explicar en la DEMO. 
+* ## Panel de la Criptomoneda
 
-#### ¿Cómo será la entrega?
-La entrega se hará a través de un form que estará disponible hasta el *JUEVES 29/09/2022 a las 13:00hs ARG*. Tendrán la posibilidad de modificar sus archivos hasta la instancia de DEMO, pero solo se va a tomar en cuenta la presentación y el envío que realicen.
+### Actualizacion de datos:
 
-#### Presentación.
-* La presentación se hará en meets previamente coordinados de 15 minutos. El Mentor es el encargado de decidir los horarios. ¡Estén atentos a su Slack!
-* Su presentación no deberá extenderse de los 8/10 minutos respetando los horarios acordados, para poder recibir el feedback correspondiente.
-* Se podrá realizar la presentación sobre el dashboard directo en la aplicación de escritorio de PowerBI. 
-* Se prestará atención a como se presenta la temática y como introducen al oyente en la misma. El storytelling deberá estar armado para una persona que no posee conocimientos en la rama.
-* Se solicitará prolijidad en cuanto a presentación visual y auditiva. Tener en cuenta contextualización, patrón Z, gama de colores a elegir, etc.
-* Se permite utilizar como modelo el Dashboard de FTX o cualquier otro exchange. 
+![image](imagenes/Actualizacion_Datos.png)
 
-### RECURSOS
-* Documentación API FTX: https://docs.ftx.com/#overview
-* Repositorio oficial: https://github.com/ccxt/ccxt
-* Ejemplo de dashboard FTX: https://ftx.com/trade/DASH-PERP
+Para actualizar los datos a los mas recientes, hay que ir a la barra de inicio y dar clic en el boton que dice *Actualizar* como se observa en la imagen.
+
+### Fechas: 
+
+![image](imagenes/Fechas.png)
+
+Es un menu desplegable es cual se puede seleccionar la fecha en que se desea conocer el precio o movimiento de la criptomoneda, ya sea por dia o por mes (Toca tener en cuenta que el dashboard solo recibe datos de los ultimos dos meses).
+
+### Precio Historico por Hora:
+
+![image](imagenes/Precio_Historico_Hora.png)
+
+Esta grafica, la cual podemos deslizarnos por ella, muestra el precio en dolares historico de cierre de la criptomoneda por horas.
+
+### Precio Historico por Día:
+
+![image](imagenes/Precio_Historico_Dia_1.png)
+
+Esta grafica, la cual podemos deslizarnos por ella, muestra el precio en dolares historico de cierre de la criptomoneda por días y tambien muestra la [Media Móvil. ](https://economipedia.com/definiciones/media-movil.html)
+
+![image](imagenes/Precio_Historico_Dia_2.png)
+
+Si se coloca el cursor sobre un punto en el plano, se podra observar el precio en dolares en el que cerro ese dia y el precio de la *Media Movil*
+
+### Precio mayor:
+
+![image](imagenes/Precio_mayor.png)
+
+Esta tabla muestra, en orden descendente, una lista de precios, representada en dolares, el cual inicia con el mayor precio registrado con su respectiva fecha y hora, si aplicamos algun filtro en fecha, esta tabla se acomodara al filtro.
+
+### Varianza:
+
+![image](imagenes/Varianza.png)
+
+Esta tabla muestra una lista con la [Varianza](https://economipedia.com/definiciones/varianza.html#:~:text=La%20varianza%20es%20una%20medida,la%20desviaci%C3%B3n%20t%C3%ADpica%20al%20cuadrado) de cada dia, representada en dolares.
+
+* ## Panel General
+
+### Volumen de Transacciones:
+
+![image](imagenes/Volumen_Transacciones.png)
+
+En esta grafica se puede observar el volumen del total de movimientos que realizo cada criptomoneda durante las ultimas 24 hora, representada en dolares.
+
+### Precio de la Criptomoneda:
+
+![image](imagenes/Precio_cripto.png)
+
+En esta grafica se puede observar el precio actual en dolares de cada criptomoneda.
+
+### Tabla de contenido de cada criptomoneda
+
+![image](imagenes/Tabla_Contenido_Cripto.png)
+
+En esta tabla esta reflejado el contenido de ambas graficas, incluyendo el porcentaje de cara criptomoneda que ocupa con respecto a las otras criptomonedas.
