@@ -63,6 +63,12 @@ Esta tabla muestra, en orden descendente, una lista de precios, representada en 
 
 Esta tabla muestra una lista con la [Varianza](https://economipedia.com/definiciones/varianza.html#:~:text=La%20varianza%20es%20una%20medida,la%20desviaci%C3%B3n%20t%C3%ADpica%20al%20cuadrado) de cada dia, representada en dolares.
 
+### Barra de Paginas:
+
+![image](Imagenes/Barra_Inferior.png)
+
+En la parte inferior del dashboard se encuentra las paginas a cada una de las presentaciones de cada criptomoneda al igual que el panel general.
+
 * ## Panel General
 
 ### Volumen de Transacciones:
